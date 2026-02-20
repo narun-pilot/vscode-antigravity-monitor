@@ -1,0 +1,92 @@
+[
+  {
+    "userId": "usr_alpha",
+    "email": "dev.alpha@example.com",
+    "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alpha",
+    "usage": {
+      "2026-02-18": {
+        "Gemini 1.5 Pro": 15400,
+        "Claude Sonnet 4.5": 4200
+      },
+      "2026-02-17": {
+        "Gemini 1.5 Pro": 21000
+      },
+      "2026-02-16": {
+        "Gemini 3 Flash": 8500,
+        "Gemini 1.5 Pro": 12000
+      },
+      "2026-02-15": {
+        "GPT-OSS 120B (Medium)": 3200
+      }
+    },
+    "tokenQuery": {
+      "2026-02-18": {
+        "inputTokens": 3200,
+        "outputTokens": 16400,
+        "queries": {
+          "Coding": 12,
+          "Debugging": 5
+        }
+      },
+      "2026-02-17": {
+        "inputTokens": 4200,
+        "outputTokens": 16800,
+        "queries": {
+          "Planning": 4,
+          "Coding": 20
+        }
+      }
+    },
+    "projects": {
+      "feature/auth-flow": {
+        "inputTokens": 5000,
+        "outputTokens": 25000,
+        "queries": { "Coding": 45, "Debugging": 12 }
+      },
+      "main": {
+        "inputTokens": 1200,
+        "outputTokens": 4500,
+        "queries": { "Documentation": 5, "Search": 8 }
+      }
+    }
+  },
+  {
+    "userId": "usr_beta",
+    "email": "qa.beta@example.com",
+    "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Beta",
+    "usage": {
+      "2026-02-18": {
+        "Gemini 3 Flash": 45000
+      },
+      "2026-02-17": {
+        "Gemini 1.5 Pro": 5000,
+        "Claude Sonnet 4.5": 12000
+      }
+    },
+    "tokenQuery": {
+      "2026-02-18": {
+        "inputTokens": 9000,
+        "outputTokens": 36000,
+        "queries": {
+          "Debugging": 25,
+          "General Question": 10
+        }
+      },
+      "2026-02-17": {
+        "inputTokens": 3400,
+        "outputTokens": 13600,
+        "queries": {
+          "Search": 15,
+          "Coding": 5
+        }
+      }
+    },
+    "projects": {
+      "bugfix/login-crash": {
+        "inputTokens": 8000,
+        "outputTokens": 32000,
+        "queries": { "Debugging": 35 }
+      }
+    }
+  }
+]

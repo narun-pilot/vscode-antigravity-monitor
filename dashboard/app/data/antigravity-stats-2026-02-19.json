@@ -1,0 +1,58 @@
+{
+  "userId": "user_1771496238648",
+  "email": "nyni37560@gmail.com",
+  "usage": {
+    "2026-02-18": {
+      "Gemini 1.5 Pro": 428
+    },
+    "2026-02-19": {
+      "Gemini 1.5 Pro": 430050
+    }
+  },
+  "tokenQuery": {
+    "2026-02-18": {
+      "inputTokens": 86,
+      "outputTokens": 343,
+      "queries": {
+        "Coding": 5
+      }
+    },
+    "2026-02-19": {
+      "inputTokens": 72764,
+      "outputTokens": 356557,
+      "queries": {
+        "Coding": 375,
+        "Debugging": 41,
+        "Search": 6,
+        "General Question": 1
+      }
+    }
+  },
+  "projects": {
+    "dev-v4-los-case-pro": {
+      "inputTokens": 64468,
+      "outputTokens": 322207,
+      "queries": {
+        "Debugging": 39,
+        "Coding": 16,
+        "Search": 6,
+        "General Question": 1
+      }
+    },
+    "dev-v4-project-queen-uat": {
+      "inputTokens": 974,
+      "outputTokens": 4861,
+      "queries": {
+        "Coding": 3,
+        "Debugging": 1
+      }
+    },
+    "dev-py3-v4-stable-merge-sonarqube-hotfix": {
+      "inputTokens": 204,
+      "outputTokens": 1017,
+      "queries": {
+        "Debugging": 1
+      }
+    }
+  }
+}
