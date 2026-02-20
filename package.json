@@ -8,7 +8,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StartYourOwnRepo/vscode-antigravity-monitor.git"
+    "url": "https://github.com/narun-pilot/vscode-antigravity-monitor.git"
   },
   "engines": {
     "vscode": "^1.80.0"
